@@ -1,0 +1,97 @@
+
+body {
+    font-family: "Happy Monkey", serif;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+}
+
+
+#main-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid  #EFB0C9;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+} 
+
+#bday-date {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    margin-top: 0px;
+    border-radius: 6px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-section-title {
+    margin-bottom: 10px;
+}
+
+.gift-section-subtitle {
+    margin-top: 0px;
+}
+
+.gift-section-img {
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#gift-happy:hover {
+    background-image: url("images/happy.webp");
+}
+
+#gift-wow:hover {
+    background-image: url("images/wow.webp");
+}
+
+#gift-fantastic:hover {
+    background-image: url("images/fantastic.webp");
+}
+
+#gift-messi:hover {
+    background-image: url("images/messi.webp");
+}
+
+#gift-liverpool {
+    height: 200px;
+}
+
+#gift-liverpool:hover {
+    background-image: url("images/liverpool.webp");
+}
+
+.footer-section {
+    width: 400px;
+    margin: 40px auto 20px auto;
+    font-size: 18px;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
